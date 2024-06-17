@@ -1,7 +1,7 @@
 import React from 'react';
-import BackgroundVideo from './components/BackgroundVideo';
-import ProjectList from './components/ProjectList';
-import CVLink from './components/CVLink';
+import BackgroundVideo from './components/BackgroundVideo.js';
+import ProjectList from './components/ProjectList.js';
+import CVLink from './components/CVLink.js';
 import './css/App.css';
 
 const App = () => {

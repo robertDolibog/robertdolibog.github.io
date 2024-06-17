@@ -5,7 +5,7 @@ const BackgroundVideo = () => {
   return (
     <div className="background-video">
       <video autoPlay loop muted>
-        <source src="path/to/your/video.mp4" type="video/mp4" />
+        <source src="../../media/1448735-uhd_4096_2160_24fps.mp4" type="video/mp4" />
       </video>
       <div className="overlay">
         <h1>Welcome to My Personal Website</h1>

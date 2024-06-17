@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProjectItem.css';
+import './css/ProjectItem.css';
 
 const ProjectItem = ({ title, description, link }) => {
   return (

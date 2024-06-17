@@ -1,5 +1,5 @@
 import React from 'react';
-import './BackgroundVideo.css';
+import './css/BackgroundVideo.css';
 
 const BackgroundVideo = () => {
   return (

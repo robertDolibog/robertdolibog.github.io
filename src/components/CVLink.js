@@ -1,5 +1,5 @@
 import React from 'react';
-import './CVLink.css';
+import './css/CVLink.css';
 
 const CVLink = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import './css/ProjectList.css';
+import '../css/ProjectList.css';
 
 const projects = [
   { id: 1, title: 'Project 1', description: 'Description of project 1', link: 'http://project1.com' },

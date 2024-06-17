@@ -1,0 +1,17 @@
+.project-item {
+    margin-bottom: 2rem;
+  }
+  
+  .project-item h3 {
+    margin: 0;
+  }
+  
+  .project-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .project-item a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  

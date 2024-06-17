@@ -1,0 +1,13 @@
+.cv-link {
+    padding: 2rem;
+  }
+  
+  .cv-link h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .cv-link a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  

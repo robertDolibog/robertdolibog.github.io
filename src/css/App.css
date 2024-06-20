@@ -12,12 +12,30 @@ body, html, .App {
   padding: 20px;
 }
 
-.background-video {
+.background-video-container {
+  position: relative;
   width: 100%;
   max-width: 1200px; /* Adjust the max width as per your design */
   margin: 0 auto;
   border-radius: 15px; /* Rounded edges */
   overflow: hidden; /* Ensure video respects border radius */
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; /* Completely transparent background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .separator-line {

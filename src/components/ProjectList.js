@@ -8,17 +8,17 @@ const ProjectList = () => {
     <div className="project-list">
       <ProjectItem
         image={`${process.env.PUBLIC_URL}/images/AvataVr.png`}
-        title="AvatAVR"
+        title="AvataVR"
         description="An innovative Unity-based VR game showcased at HTW Berlin."
         role="My role involved implementing a GitFlow-like workflow in team development and establishing a CI pipeline on GitLab to ensure the Unity game would build for every push to our version control."
         link="https://showtime.f4.htw-berlin.de/ws23/bachelor/b6-avatavr/"
       />
       <ProjectItem
         image={`${process.env.PUBLIC_URL}/images/AnotherProject.png`}
-        title="Another Project"
+        title="Project Management Pro (Ongoing)"
         description="Description of another project."
         role="My role in this project was to develop the front-end using React and ensure cross-browser compatibility."
-        link="https://example.com"
+        link="https://github.com/robertDolibog/ProjectManagementPro"
       />
     </div>
   );

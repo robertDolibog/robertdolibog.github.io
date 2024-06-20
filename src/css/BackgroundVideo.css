@@ -17,7 +17,7 @@
   position: absolute;
   top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
   background-color: transparent; /* Completely transparent background */
   color: #fff7f3;
   padding: 20px;

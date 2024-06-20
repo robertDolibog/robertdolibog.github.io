@@ -9,7 +9,7 @@ const BackgroundVideo = () => {
         Your browser does not support the video tag.
       </video>
       <div className="video-overlay">
-        <h1>Welcome to My Personal Website</h1>
+        <h1>This is Robert Dolibog</h1>
       </div>
     </div>
   );

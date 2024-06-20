@@ -1,10 +1,29 @@
+body, html, .App {
+  background-color: #1e3a8a; /* Set background color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white; /* Optional: Make text white for better contrast */
+}
+
 .App {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  padding: 20px;
 }
 
-.cv-card-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+.background-video {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max width as per your design */
+  margin: 0 auto;
+  border-radius: 15px; /* Rounded edges */
+  overflow: hidden; /* Ensure video respects border radius */
+}
+
+.separator-line {
+  width: 100%;
+  max-width: 1200px; /* Match the width of the video and project cards */
+  height: 2px;
+  background-color: black;
+  margin: 20px auto;
 }

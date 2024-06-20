@@ -8,10 +8,10 @@ const App = () => {
   return (
     <div className="App">
       <BackgroundVideo />
+      <div className="separator-line"></div> {/* Separator line under the video */}
       <ProjectList />
-      <div className="cv-card-container">
-        <CVCard link={`${process.env.PUBLIC_URL}/CV_Robert_Dolibog.pdf`} />
-      </div>
+      <CVCard link={`${process.env.PUBLIC_URL}/CV_Robert_Dolibog.pdf`} />
+      <div className="separator-line"></div> {/* Separator line above the projects */}
     </div>
   );
 };

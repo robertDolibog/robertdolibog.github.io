@@ -5,7 +5,7 @@ body {
 }
 
 .project-item {
-  background-color: #fff7f3; /* Beige background color */
+  background-color: #f5f5dc; /* Beige background color */
   color: #000; /* Black text color */
   padding: 20px;
   border-radius: 15px; /* Rounded corners */
@@ -37,6 +37,8 @@ body {
 
 .project-item .description {
   text-align: center;
+  font-weight: 600; /* Bold */
+  text-decoration: underline; /* Underline */
 }
 
 .project-item .role {

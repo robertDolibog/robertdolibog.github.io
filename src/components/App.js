@@ -1,9 +1,8 @@
 import React from 'react';
-import BackgroundVideo from './components/BackgroundVideo';
-import ProjectList from './components/ProjectList';
-import CVLink from './components/CVLink';
-import CVCard from './components/CVCard'; // Importing the new component
-import './css/App.css';
+import BackgroundVideo from './BackgroundVideo';
+import ProjectList from './ProjectList';
+import CVCard from './CVCard';
+import '../css/App.css';
 
 const App = () => {
   return (
@@ -18,3 +17,4 @@ const App = () => {
 };
 
 export default App;
+

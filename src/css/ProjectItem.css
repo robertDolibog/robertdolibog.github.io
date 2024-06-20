@@ -11,6 +11,7 @@
   margin: 20px;
   width: calc(50% - 40px); /* Adjust width to fit two items side by side */
   box-sizing: border-box;
+  cursor: pointer; /* Pointer cursor to indicate clickable */
 }
 
 .project-item:hover {
@@ -29,16 +30,4 @@
 
 .project-item p {
   text-align: center;
-}
-
-.project-item a {
-  color: #000; /* Link color */
-  text-decoration: underline; /* Underlined from the start */
-  margin-top: auto;
-  display: block;
-  text-align: center;
-}
-
-.project-item a:hover {
-  text-decoration: underline dotted; /* Dotted underline on hover */
 }

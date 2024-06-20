@@ -1,5 +1,5 @@
 .project-item {
-  background-color: #f9f9f9;
+  background-color: #f5f5dc; /* Beige background color */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -12,13 +12,14 @@
 }
 
 .project-item a {
-  color: #1E3A8A;
-  text-decoration: none;
+  color: #000000; /* Black color for links */
+  text-decoration: underline; /* Underline text from the start */
 }
 
 .project-item a:hover {
-  text-decoration: underline;
+  text-decoration: underline dotted; /* Dotted underline on hover */
 }
+
 @media (max-width: 768px) {
   .project-item {
     width: calc(100% - 40px); /* Full width on small screens */

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .project-item {
   background-color: #fff7f3; /* Beige background color */
   color: #000; /* Black text color */
@@ -26,8 +32,15 @@
 .project-item h3 {
   margin-top: 15px;
   text-align: center;
+  font-weight: 600;
 }
 
-.project-item p {
+.project-item .description {
   text-align: center;
+}
+
+.project-item .role {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 400;
 }

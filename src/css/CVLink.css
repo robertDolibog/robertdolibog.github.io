@@ -7,7 +7,11 @@
   }
   
   .cv-link a {
-    color: #1e90ff;
-    text-decoration: none;
+    color: #000000; /* Black color for links */
+    text-decoration: underline; /* Underline text from the start */
+  }
+
+  .cv-link a:hover {
+    text-decoration: underline dotted; /* Dotted underline on hover */
   }
   

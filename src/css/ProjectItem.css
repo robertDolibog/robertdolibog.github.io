@@ -1,28 +1,44 @@
 .project-item {
   background-color: #f5f5dc; /* Beige background color */
+  color: #000; /* Black text color */
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+  margin: 20px;
   width: calc(50% - 40px); /* Adjust width to fit two items side by side */
   box-sizing: border-box;
 }
 
+.project-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 15px 15px 0 0; /* Round top corners */
+}
+
 .project-item h3 {
-  margin-top: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.project-item p {
+  text-align: center;
 }
 
 .project-item a {
-  color: #000000; /* Black color for links */
-  text-decoration: underline; /* Underline text from the start */
+  color: #000; /* Link color */
+  text-decoration: underline; /* Underlined from the start */
+  margin-top: auto;
+  display: block;
+  text-align: center;
 }
 
 .project-item a:hover {
   text-decoration: underline dotted; /* Dotted underline on hover */
 }
-
-@media (max-width: 768px) {
-  .project-item {
-    width: calc(100% - 40px); /* Full width on small screens */
-  }
-}
-

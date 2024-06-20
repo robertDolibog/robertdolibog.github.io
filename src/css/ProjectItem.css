@@ -1,17 +1,27 @@
 .project-item {
-    margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 40px); /* Adjust width to fit two items side by side */
+  box-sizing: border-box;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.project-item a {
+  color: #1E3A8A;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .project-item {
+    width: calc(100% - 40px); /* Full width on small screens */
   }
-  
-  .project-item h3 {
-    margin: 0;
-  }
-  
-  .project-item p {
-    margin: 0.5rem 0;
-  }
-  
-  .project-item a {
-    color: #1e90ff;
-    text-decoration: none;
-  }
-  
+}
+

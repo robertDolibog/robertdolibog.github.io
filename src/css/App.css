@@ -1,10 +1,10 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cv-card-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}

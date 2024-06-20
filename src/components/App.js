@@ -1,15 +1,18 @@
 import React from 'react';
-import BackgroundVideo from './BackgroundVideo';
-import ProjectList from './ProjectList';
-import CVLink from './CVLink';
-import '../css/App.css';
+import BackgroundVideo from './components/BackgroundVideo';
+import ProjectList from './components/ProjectList';
+import CVLink from './components/CVLink';
+import CVCard from './components/CVCard'; // Importing the new component
+import './css/App.css';
 
 const App = () => {
   return (
     <div className="App">
       <BackgroundVideo />
       <ProjectList />
-      <CVLink />
+      <div className="cv-card-container">
+        <CVCard link={`${process.env.PUBLIC_URL}/CV_Robert_Dolibog.pdf`} />
+      </div>
     </div>
   );
 };

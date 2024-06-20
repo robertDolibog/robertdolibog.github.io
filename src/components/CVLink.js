@@ -1,13 +1,13 @@
 import React from 'react';
-import '../css/CVLink.css';
+import '../css/CVCard.css';
 
-const CVLink = () => {
+const CVCard = ({ link }) => {
   return (
-    <div className="cv-link">
-      <h2>My CV</h2>
-      <a href="path/to/your/CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+    <div className="cv-card" onClick={() => window.open(link, "_blank")}>
+      <h3>Download My CV</h3>
+      <p>Click here to download my CV.</p>
     </div>
   );
 };
 
-export default CVLink;
+export default CVCard;

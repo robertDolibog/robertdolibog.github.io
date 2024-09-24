@@ -17,7 +17,7 @@ const ProjectList = () => {
         image={`${process.env.PUBLIC_URL}/images/ProjectmanagementPro.png`}
         title="Project Management Pro (Ongoing)"
         description="A project management tool developed using Next.js and and Express.js."
-        role="My role involves developing the backend API via the Express.js framework and our Postgres Database. Further I'm orchestrating the frontend connection via Docker-Compose."
+        role="My role involved developing the backend API via the Express.js framework and our Postgres Database. Further I was orchestrating the frontend connection via Docker-Compose."
         link="https://github.com/robertDolibog/ProjectManagementPro"
       />
     </div>

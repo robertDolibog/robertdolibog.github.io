@@ -1,48 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.project-item {
-  background-color: #fff7f3; /* Beige background color */
-  color: #000; /* Black text color */
-  padding: 20px;
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s;
-  margin: 20px;
-  width: calc(50% - 40px); /* Adjust width to fit two items side by side */
-  box-sizing: border-box;
-  cursor: pointer; /* Pointer cursor to indicate clickable */
-}
-
-.project-item:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
-}
-
-.project-item img {
+  justify-content: space-between;
   width: 100%;
-  border-radius: 15px 15px 0 0; /* Round top corners */
-}
-
-.project-item h3 {
-  margin-top: 15px;
-  text-align: center;
-  font-weight: 600;
-}
-
-.project-item .description {
-  text-align: center;
-  font-weight: 600; /* Bold */
-  text-decoration: underline; /* Underline */
-}
-
-.project-item .role {
-  text-align: left;
   margin-top: 10px;
-  font-weight: 400;
+}
+
+.project-button, .doc-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.project-button:hover, .doc-button:hover {
+  background-color: #0056b3;
 }
